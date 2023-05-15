@@ -3,6 +3,7 @@ Con số yêu thích của bạn là gì?
 https://ctf.infosecptit.club/files/ca3121005db48ad2907c242dedc570c3/favorite_num.py?token=eyJ1c2VyX2lkIjo0NywidGVhbV9pZCI6bnVsbCwiZmlsZV9pZCI6NX0.ZGF8XA.k55Xyj6H6HNNWlm_lQZyA2bxbBE
 
 1. Mở file, file yêu cầu nhập vào chuỗi số có 8 chữ số để check file
+```
 import hashlib
 
 hashed_key = "b3d77ed0c460ef460792f07ad1e471d5fe70ac85c514e0b21b32e49d0f1b2c55"
@@ -35,8 +36,9 @@ def main():
 
 if __name__ == "__main__":
     main()
-
+```
 2. Do đó ta chạy 8 vòng for lồng nhau để check all trh
+```
 import hashlib
 hashed_key = "b3d77ed0c460ef460792f07ad1e471d5fe70ac85c514e0b21b32e49d0f1b2c55"
 hash_secret = 31580683746748870831459475506823890005573670692504809
@@ -72,5 +74,5 @@ def main():
                                         #print("That number isn't right!")  
 if __name__ == "__main__":
     main()
-
+```
 3. Kết quả flag in ra là: ISPCTF{That_iS_Special_Number}
