@@ -95,3 +95,4 @@ int main(int argc, char *argv[])
    return 0;
 }
 ```
+4. flag: ispctf{St4RbuCk5_c0ffee}
